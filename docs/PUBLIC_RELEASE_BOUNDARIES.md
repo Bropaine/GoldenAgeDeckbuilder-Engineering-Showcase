@@ -2,7 +2,7 @@
 
 [Back to showcase](../README.md) · [Media and sample plan](MEDIA_AND_CODE_SAMPLE_PLAN.md)
 
-This showcase is a separately authored documentation package. The public surface explains decisions, tradeoffs, and dated evidence while keeping the production project and detailed internal records private.
+This showcase combines separately authored documentation with a small, reviewed collection of annotated production excerpts. The public surface explains decisions, tradeoffs, and dated evidence while keeping the production project and detailed internal records private.
 
 ## Publication categories
 
@@ -12,7 +12,7 @@ This showcase is a separately authored documentation package. The public surface
 | Dated high-level test/acceptance claims with limits | Included; raw private evidence excluded |
 | Gameplay or editor captures | Add only after capture, privacy, rights, and checkpoint review |
 | Representative C# examples | Prefer newly authored generic examples, clearly labeled and verified independently |
-| Small production excerpts | Exceptional, individually reviewed; no cumulative reconstruction path |
+| Small production excerpts | Selected examples included after Owner-authorized review; no cumulative reconstruction path |
 | Full game source or sanitized branch of its history | Excluded |
 | Raw GDD, contracts, current-state record, workflow prompts, agent conversations | Excluded |
 | Complete save schemas, content catalogs, balance tables, source responsibility maps | Excluded |
@@ -23,7 +23,7 @@ This showcase is a separately authored documentation package. The public surface
 
 Several individually small disclosures can combine into a useful implementation map. Review the cumulative set for revealed APIs, field layouts, algorithms, content, and dependency paths. The public diagrams therefore show responsibilities and decision boundaries rather than every class and call sequence.
 
-A selected sample should have one teachable purpose, generic identifiers, no private dependencies, and no requirement for unpublished implementation files. Deleting proprietary names from a production file is not enough if its structure still exposes a substantial subsystem.
+A standalone representative sample should have one teachable purpose, generic identifiers, no private dependencies, and no requirement for unpublished implementation files. A production excerpt retains its real names and identifies its omitted context; it is a reading artifact with no promise of standalone execution. Deleting proprietary names from a production file is not enough if its structure still exposes a substantial subsystem.
 
 ## Rights and attribution
 
@@ -40,4 +40,4 @@ For future media, record provenance, permission basis, redistribution obligation
 5. Decide the documentation/sample license and any necessary credits explicitly.
 6. Obtain the Owner's public-release decision before creating or publishing the public remote.
 
-There is no publication automation or private-history import in this edition. Local preparation of the folder does not publish it.
+The public repository has independent history. No private repository history or complete subsystem is imported. Future additions require the same bounded source, evidence, and collection review.

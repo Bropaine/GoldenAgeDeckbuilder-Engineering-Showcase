@@ -40,7 +40,7 @@ The documented engineering approach combines focused C# tests with integration a
 - Resume preserves supported state and RNG continuity relative to uninterrupted execution.
 - Storage and recovery behavior is exercised outside the Unity Editor.
 
-These are summarized proof themes. The exhibits include two selected test methods; the complete private suite and raw reports remain private.
+These are summarized proof themes. The exhibits include selected test methods and assertion fragments, including corrupt temporary-file read-back and invalid restore rejection; the complete private suite and raw reports remain private.
 
 ## Material limits
 

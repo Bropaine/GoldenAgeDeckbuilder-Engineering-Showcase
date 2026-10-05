@@ -38,6 +38,15 @@ Direct snapshots require each new mutable gameplay domain to declare capture, re
 
 Compatibility rejection is bounded protection, not indefinite migration. Backup recovery is not protection against total device loss, deletion of every copy, or corruption of every recovery copy. State after the last successfully committed snapshot can still be lost if a later save fails.
 
+## Inspect the implementation boundaries
+
+Two [selected production exhibits](../samples/README.md) connect these decisions to source inspected October 5, 2026:
+
+- [Durable save commit](../samples/DURABLE_SAVE_COMMIT.md) shows validation of temporary-file read-back, failure reporting, and the point where durability becomes clean.
+- [Staged session restore](../samples/STAGED_SESSION_RESTORE.md) shows early rejection, preparation before installation, a narrow assignment seam, and assertions that rejection preserves live owners.
+
+These are non-standalone excerpts with the real save format and reconstruction internals omitted. The selected test source was inspected, not executed. Synchronous session installation and filesystem commit are separate boundaries; the former does not independently prove crash-safe storage.
+
 ## Recorded outcome
 
 The September 23 acceptance record reports clean-launch/filesystem verification of active combat, pending reward, pending recovery, backup recovery, failed-load safety, fresh bindings, and honest save failures. It also records the 1,681 / 1,681 EditMode regression checkpoint.

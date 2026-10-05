@@ -42,6 +42,8 @@ These short exhibits connect architectural claims to inspected source and select
 | [Context-bound targets](samples/CONTEXT_BOUND_TARGETS.md) | Matching numeric IDs do not make a target valid in another Battle |
 | [Presentation without mutation](samples/PRESENTATION_WITHOUT_MUTATION.md) | A health presenter updates a view without changing Run or Battle health |
 | [Assembly boundaries](samples/ASSEMBLY_BOUNDARIES.md) | Definition and combat assemblies explicitly restrict engine and project dependencies |
+| [Durable save commit](samples/DURABLE_SAVE_COMMIT.md) | Read-back validation precedes commit; clean state follows successful commit |
+| [Staged session restore](samples/STAGED_SESSION_RESTORE.md) | Construct replacement state before changing live Run, Battle, and RNG authority |
 
 ## Engineering responsibility and AI use
 
@@ -86,7 +88,9 @@ GoldenAgeDeckbuilder-Engineering-Showcase/
     ├── README.md
     ├── CONTEXT_BOUND_TARGETS.md
     ├── PRESENTATION_WITHOUT_MUTATION.md
-    └── ASSEMBLY_BOUNDARIES.md
+    ├── ASSEMBLY_BOUNDARIES.md
+    ├── DURABLE_SAVE_COMMIT.md
+    └── STAGED_SESSION_RESTORE.md
 ```
 
 [Project overview](docs/PROJECT_OVERVIEW.md) · [UI architecture](docs/UI_ARCHITECTURE.md) · [All diagrams](diagrams/README.md) · [Media and sample plan](docs/MEDIA_AND_CODE_SAMPLE_PLAN.md) · [Public-release boundaries](docs/PUBLIC_RELEASE_BOUNDARIES.md)

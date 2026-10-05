@@ -2,7 +2,7 @@
 
 [Back to showcase](../README.md)
 
-The written showcase and a first collection of selected production excerpts are published. The [sample index](../samples/README.md) includes context-bound targets, presentation without mutation, and two assembly definitions. These are annotated reading artifacts; they are not standalone executable samples, and the displayed tests were not run for the showcase.
+The written showcase and a first collection of selected production excerpts are published. The [sample index](../samples/README.md) includes context-bound targets, presentation without mutation, two assembly definitions, durable save commit, and staged session restore. These are annotated reading artifacts; they are not standalone executable samples, and the displayed tests were not run for the showcase.
 
 The media and representative examples proposed below remain planned additions. No gameplay captures are included yet.
 
