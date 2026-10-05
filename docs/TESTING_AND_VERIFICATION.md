@@ -2,7 +2,13 @@
 
 [Back to showcase](../README.md)
 
-**This repository does not run or distribute the private game's test suite.** The results below are inherited documentary evidence for identified accepted checkpoints. No new gameplay tests, build, source audit, or playtest was performed to create this showcase.
+**This repository does not run or distribute the private game's test suite.** The results below are inherited documentary evidence for identified accepted checkpoints. No new gameplay tests, build, or playtest was performed to create this showcase.
+
+## Selected source inspection
+
+On October 5, 2026, selected production files and related test methods were inspected to prepare the [source exhibits](../samples/README.md). The displayed fragments are exact excerpts of that reviewed source. This was a bounded inspection, not a full source audit.
+
+The displayed test methods were not executed for the showcase. Their assertions illustrate intended properties; their presence alone is not a passing result. The reviewed source is later than the historical accepted checkpoints below, so those totals must not be presented as verification of the exhibited source state.
 
 ## Recorded checkpoints
 
@@ -34,7 +40,7 @@ The documented engineering approach combines focused C# tests with integration a
 - Resume preserves supported state and RNG continuity relative to uninterrupted execution.
 - Storage and recovery behavior is exercised outside the Unity Editor.
 
-These are summarized proof themes, not a public list of production test methods. The private suite and raw reports remain private.
+These are summarized proof themes. The exhibits include two selected test methods; the complete private suite and raw reports remain private.
 
 ## Material limits
 

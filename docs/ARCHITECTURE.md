@@ -33,7 +33,7 @@ Animation and audio callbacks do not apply damage, settle outcomes, or advance e
 
 ## Dependencies and scope
 
-The documented assembly boundaries separate definitions, runtime logic, Unity authoring/conversion, presentation, and tests. Dependencies are explicit. The accepted architecture uses focused services rather than a speculative universal effect engine or combatant framework.
+The documented assembly boundaries separate definitions, runtime logic, Unity authoring/conversion, presentation, and tests. Dependencies are explicit. The [selected assembly definitions](../samples/ASSEMBLY_BOUNDARIES.md) show two of those boundaries directly. The accepted architecture uses focused services rather than a speculative universal effect engine or combatant framework.
 
 This is a scope decision with a tradeoff: a future mechanic may require a deliberate extension and new verification. The benefit is that today's ownership and ordering remain inspectable without a framework built around hypothetical mechanics.
 
@@ -47,4 +47,4 @@ This is a scope decision with a tradeoff: a future mechanic may require a delibe
 | A delayed effect decides whether damage happened | Gameplay completes independently of presentation playback |
 | Save/load initializes over restored facts | Separate direct reconstruction path |
 
-The accepted-state record supports these responsibility boundaries. This showcase does not include the private implementation or claim a new source audit. [Verification scope](TESTING_AND_VERIFICATION.md).
+The accepted-state record supports these responsibility boundaries. The [selected source exhibits](../samples/README.md), inspected October 5, illustrate specific decisions; they do not constitute a full source audit or new execution evidence. The complete implementation remains private. [Verification scope](TESTING_AND_VERIFICATION.md).

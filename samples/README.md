@@ -1,11 +1,21 @@
-# Representative code samples
+# Selected production code
 
-[Back to showcase](../README.md) · [Sample plan](../docs/MEDIA_AND_CODE_SAMPLE_PLAN.md)
+[Back to showcase](../README.md) · [Media and sample plan](../docs/MEDIA_AND_CODE_SAMPLE_PLAN.md)
 
-No executable code samples or production source excerpts are included in this first edition.
+This collection contains **reviewed production excerpts**, selected for their small scope and clear architectural purpose. Source and selected test methods were inspected on October 5, 2026. They were not compiled or executed for this showcase.
 
-The preferred first sample is a small generic C# example of context-bound identity and stale-request rejection. It should use newly authored names and data, include meaningful independent checks, and explain the decisions it demonstrates.
+| Exhibit | What to inspect | Included material |
+|---|---|---|
+| [Context-bound targets](CONTEXT_BOUND_TARGETS.md) | Identity includes the owning Battle; a foreign target is rejected even when ID values match | Equality and resolution fragments plus one test method |
+| [Presentation without mutation](PRESENTATION_WITHOUT_MUTATION.md) | View updates do not own gameplay health | Small view interface, presenter method, and one test method |
+| [Assembly boundaries](ASSEMBLY_BOUNDARIES.md) | Dependencies are declared and engine references are restricted | Two small Unity assembly definitions |
 
-Every future sample must state whether it is representative or a reviewed production excerpt. For representative work, use: **“Simplified representative example; not production game source.”** Include requirements, how to run it, actual verification results, omitted concerns, and explicit license terms after Owner selection.
+Each exhibit explains its scope, source filename and reviewed line range, omissions, and evidence limits. The excerpts retain their production names and behavior. They are not newly authored representative examples.
 
-Sample success certifies the sample's behavior. It is not new evidence for the private game. Keep production schemas, gameplay content, and private dependencies out of the collection.
+## Scope and reuse
+
+These Markdown exhibits are reading artifacts, not a buildable project. Their containing types, helper methods, referenced assemblies, and wider runtime are intentionally omitted. The complete combat path, game content, save formats, asset pipeline, and private repository history remain private.
+
+Selected test methods show how a property is expressed in the private suite. Reading a test does not establish that it passes, and historical suite totals do not certify this later source inspection. See [Testing and verification](../docs/TESTING_AND_VERIFICATION.md).
+
+Public availability does not grant an open-source or redistribution license. See [NOTICE](../NOTICE.md). Future standalone representative examples should identify themselves separately, include actual execution evidence, and carry explicit terms after Owner selection.

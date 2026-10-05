@@ -6,7 +6,7 @@ A turn-based roguelike deckbuilder centered on Black Terror, with a restored Gol
 
 The central challenge is continuity: a Run must remember the exact cards the player owns and the decisions they have made, while every new Battle starts with fresh mutable combat objects. Saving and resuming must preserve that distinction—even in the middle of a supported combat decision.
 
-**Production source is maintained privately.** This repository contains original public-facing architecture summaries, engineering case studies, conceptual diagrams, and a plan for selected media and code samples. This first edition contains documentation and diagrams; gameplay captures, executable samples, and a playable build are not included.
+**The full production source is maintained privately.** This repository contains public-facing architecture summaries, engineering case studies, conceptual diagrams, and a small collection of annotated production excerpts. Gameplay captures, standalone executable samples, and a playable build are not included.
 
 ## At a glance
 
@@ -32,6 +32,16 @@ These are documentation-backed checkpoint claims, not a new execution of the pri
 | [Animation tooling](docs/ANIMATION_PIPELINE_CASE_STUDY.md) | How do you regenerate art without breaking references or editorial work? | Saved configuration, owned outputs, stable asset identity, playback/inventory separation |
 
 For a short architectural tour, read [Architecture](docs/ARCHITECTURE.md) and [Testing and verification](docs/TESTING_AND_VERIFICATION.md). For development practice, read [AI-assisted engineering](docs/AI_ASSISTED_ENGINEERING.md).
+
+## Read selected production code
+
+These short exhibits connect architectural claims to inspected source and selected test methods. They are exact excerpts with omitted dependencies, not standalone programs. The source was inspected on October 5, 2026; the displayed tests were not executed for this showcase.
+
+| Exhibit | Decision demonstrated |
+|---|---|
+| [Context-bound targets](samples/CONTEXT_BOUND_TARGETS.md) | Matching numeric IDs do not make a target valid in another Battle |
+| [Presentation without mutation](samples/PRESENTATION_WITHOUT_MUTATION.md) | A health presenter updates a view without changing Run or Battle health |
+| [Assembly boundaries](samples/ASSEMBLY_BOUNDARIES.md) | Definition and combat assemblies explicitly restrict engine and project dependencies |
 
 ## Engineering responsibility and AI use
 
@@ -73,9 +83,12 @@ GoldenAgeDeckbuilder-Engineering-Showcase/
 ├── media/
 │   └── README.md
 └── samples/
-    └── README.md
+    ├── README.md
+    ├── CONTEXT_BOUND_TARGETS.md
+    ├── PRESENTATION_WITHOUT_MUTATION.md
+    └── ASSEMBLY_BOUNDARIES.md
 ```
 
 [Project overview](docs/PROJECT_OVERVIEW.md) · [UI architecture](docs/UI_ARCHITECTURE.md) · [All diagrams](diagrams/README.md) · [Media and sample plan](docs/MEDIA_AND_CODE_SAMPLE_PLAN.md) · [Public-release boundaries](docs/PUBLIC_RELEASE_BOUNDARIES.md)
 
-*Edition prepared October 5, 2026. Gameplay claims are bounded to the documented September 23 checkpoint unless explicitly identified otherwise. Rights and redistribution terms are described in [NOTICE](NOTICE.md).*
+*Edition prepared October 5, 2026. Gameplay acceptance claims are bounded to the documented September 23 checkpoint; the selected source inspection is separately dated October 5. Rights and redistribution terms are described in [NOTICE](NOTICE.md).*

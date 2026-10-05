@@ -2,7 +2,9 @@
 
 [Back to showcase](../README.md)
 
-The written showcase is complete as a first edition. The next additions should make the results visible and provide a small, inspectable code artifact. None of the captures or samples below is claimed to exist in this edition.
+The written showcase and a first collection of selected production excerpts are published. The [sample index](../samples/README.md) includes context-bound targets, presentation without mutation, and two assembly definitions. These are annotated reading artifacts; they are not standalone executable samples, and the displayed tests were not run for the showcase.
+
+The media and representative examples proposed below remain planned additions. No gameplay captures are included yet.
 
 ## Media priorities
 
@@ -23,21 +25,21 @@ Prefer focused captures with readable text, captions, and minimal cursor movemen
 
 For every media item, record filename, captured build/checkpoint, capture date, production/proof-fixture status, what it demonstrates, edits, rights status, and credits. A video description should disclose cuts across launch/quit boundaries. Keep raw recordings private.
 
-## Small code-sample candidates
+## Future standalone code-sample candidates
 
 | Order | Representative example | What a reviewer can assess | Guard against |
 |---|---|---|---|
-| 1 | Context-bound identity value and stale-request guard | Equality scope, validation, error clarity | Reproducing private target types or the full combat command path |
+| 1 | Context-bound identity value and stale-request guard | Equality scope, validation, error clarity | Reproducing the full target model or combat command path |
 | 2 | Construct-before-install candidate validation | Invariants and unchanged-live-state failure | Publishing a real save schema or canonical catalog |
 | 3 | Immutable completed-result type | Applied amounts versus current totals | Mirroring the complete production result contract |
 | 4 | Generic output-ownership preflight | Explicit writes and reference-preserving intent | Exposing the full extraction/import pipeline |
 
-Start with one or two examples, not all four. Use freshly authored generic C# and state plainly: **“Simplified representative example; not production game source.”** Each should be self-contained, small enough to review in a few minutes, and accompanied by a short explanation of omitted concerns.
+For a future executable collection, start with one or two examples. Use freshly authored generic C# and state plainly: **“Simplified representative example; not production game source.”** Each should be self-contained, small enough to review in a few minutes, and accompanied by a short explanation of omitted concerns.
 
 Meaningful sample checks should cover a rejected stale context, a failed candidate leaving live state unchanged, or a conflicting output owner preventing a write. Do not assert production behavior from sample results. Record the actual compiler/runtime used and only report checks that were executed.
 
 ## Release sequence
 
-First review the text package and attribution wording. Then add the hero screenshot and a short overview, followed by one verified representative sample. Add focused captures only when they clarify a case study.
+The documentation foundation and first bounded production excerpts are published. Next add a cleared hero screenshot and short gameplay overview, then one verified standalone representative sample if it adds value beyond the excerpts. Add focused captures or a small tooling exhibit when they clarify a case study.
 
-After each addition, review the entire public set for private information, rights, unsupported claims, and cumulative reconstruction risk. The documentation/sample license and public remote remain Owner decisions. [Publication checklist](PUBLIC_RELEASE_BOUNDARIES.md).
+After each addition, review the entire public set for private information, rights, unsupported claims, and cumulative reconstruction risk. Further source disclosure and documentation/sample license choices remain Owner decisions. [Publication checklist](PUBLIC_RELEASE_BOUNDARIES.md).
