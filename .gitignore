@@ -1,0 +1,28 @@
+# Local/editor artifacts
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+*.tmp
+*.log
+*.zip
+
+# Private reference folders and runtime data must never enter this repo.
+sources/
+showcase-review/
+*.patch
+*.save
+*.bak
+
+# Guard against accidentally adding a Unity project.
+Assets/
+Packages/
+ProjectSettings/
+Library/
+Temp/
+Obj/
+Builds/
+
+# Future representative samples may produce local build output.
+bin/
+obj/
