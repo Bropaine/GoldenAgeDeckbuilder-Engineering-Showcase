@@ -6,7 +6,6 @@
 
 https://github.com/user-attachments/assets/fb88e504-3230-4687-aef0-3da6faf194cc
 
-[Open or download the editor recording](https://github.com/user-attachments/assets/fb88e504-3230-4687-aef0-3da6faf194cc)
 
 ## What to watch
 

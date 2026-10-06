@@ -6,7 +6,6 @@
 
 https://github.com/user-attachments/assets/aaaf7a02-c39b-4466-881a-189a8a5c88bc
 
-[Open or download the gameplay recording](https://github.com/user-attachments/assets/aaaf7a02-c39b-4466-881a-189a8a5c88bc)
 
 ## What the recording shows
 
