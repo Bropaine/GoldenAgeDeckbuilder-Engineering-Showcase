@@ -2,7 +2,9 @@
 
 ### Engineering showcase · Unity · C# · Gameplay systems · Production tools
 
-A turn-based roguelike deckbuilder centered on Black Terror, with a restored Golden Age comic presentation. This showcase explains the engineering behind its accepted vertical slice and subsequent card-identity and persistence milestones.
+A turn-based roguelike deckbuilder centered on **The Dread**, with a restored Golden Age comic presentation. This showcase explains the engineering behind its accepted vertical slice and subsequent card-identity and persistence milestones.
+
+The first playable hero was renamed from Black Terror to The Dread on September 30, 2026. Earlier checkpoint records retain the former name.
 
 The central challenge is continuity: a Run must remember the exact cards the player owns and the decisions they have made, while every new Battle starts with fresh mutable combat objects. Saving and resuming must preserve that distinction—even in the middle of a supported combat decision.
 
@@ -63,7 +65,7 @@ The case studies explain project decisions and their consequences. They do not i
 
 ## Development maturity
 
-The Black Terror vertical slice was accepted on September 14, 2026. Individual card identity and deck refinement were accepted on September 21; durable continuation for the implemented capability set was accepted on September 23.
+The first-hero vertical slice was accepted on September 14, 2026. Individual card identity and deck refinement were accepted on September 21; durable continuation for the implemented capability set was accepted on September 23.
 
 This is an in-development game. The showcased checkpoint does not establish a finished commercial release, broad content completeness, cloud saves, arbitrary future save migration, or keyboard/controller support. The accepted playtest record includes one independent fresh-player session; a second was deferred. Detailed limits are preserved in the verification document.
 
