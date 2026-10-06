@@ -17,7 +17,7 @@ The displayed test methods were not executed for the showcase. Their assertions 
 | Vertical slice, accepted September 14, 2026 | 1,247 / 1,247 EditMode tests; matching Rider result; standalone acceptance | Historical slice with launch, progression, rewards, recovery, win/loss and input checks |
 | Individual card identity/refinement, accepted September 21, 2026 | 1,468 / 1,468 EditMode tests; zero failures; packaged acceptance | Historical copy-identity and refinement milestone |
 | Durable continuation, accepted September 23, 2026 | **1,681 / 1,681 EditMode tests; zero failures; packaged clean-launch/filesystem acceptance** | Latest accepted gameplay checkpoint described in the supplied state record |
-| Animation pipeline | Production manual describes workflows and checks | Documented tooling capabilities; no supplied tooling acceptance result or test total |
+| Animation pipeline | Production manual describes workflows and checks; October 5 source inspection covers selected ownership/editorial boundaries | Documented and inspected scope; no supplied tooling acceptance result, executed showcase tests, or test total |
 
 The totals are checkpoints of an evolving suite, not independent totals to add together. They do not establish coverage percentages, performance benchmarks, universal correctness, or fresh verification of later source.
 
@@ -40,7 +40,7 @@ The documented engineering approach combines focused C# tests with integration a
 - Resume preserves supported state and RNG continuity relative to uninterrupted execution.
 - Storage and recovery behavior is exercised outside the Unity Editor.
 
-These are summarized proof themes. The exhibits include selected test methods and assertion fragments, including corrupt temporary-file read-back and invalid restore rejection; the complete private suite and raw reports remain private.
+These are summarized proof themes. The exhibits include selected test methods and assertion fragments, including corrupt temporary-file read-back, invalid restore rejection, and no-op editorial playback preservation; the complete private suite and raw reports remain private.
 
 ## Material limits
 

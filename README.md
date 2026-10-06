@@ -44,6 +44,7 @@ These short exhibits connect architectural claims to inspected source and select
 | [Assembly boundaries](samples/ASSEMBLY_BOUNDARIES.md) | Definition and combat assemblies explicitly restrict engine and project dependencies |
 | [Durable save commit](samples/DURABLE_SAVE_COMMIT.md) | Read-back validation precedes commit; clean state follows successful commit |
 | [Staged session restore](samples/STAGED_SESSION_RESTORE.md) | Construct replacement state before changing live Run, Battle, and RNG authority |
+| [Animation regeneration](samples/ANIMATION_REGENERATION.md) | Separate generated inventory from editorial playback; constrain overwrites through ownership |
 
 ## Engineering responsibility and AI use
 
@@ -90,7 +91,8 @@ GoldenAgeDeckbuilder-Engineering-Showcase/
     ├── PRESENTATION_WITHOUT_MUTATION.md
     ├── ASSEMBLY_BOUNDARIES.md
     ├── DURABLE_SAVE_COMMIT.md
-    └── STAGED_SESSION_RESTORE.md
+    ├── STAGED_SESSION_RESTORE.md
+    └── ANIMATION_REGENERATION.md
 ```
 
 [Project overview](docs/PROJECT_OVERVIEW.md) · [UI architecture](docs/UI_ARCHITECTURE.md) · [All diagrams](diagrams/README.md) · [Media and sample plan](docs/MEDIA_AND_CODE_SAMPLE_PLAN.md) · [Public-release boundaries](docs/PUBLIC_RELEASE_BOUNDARIES.md)

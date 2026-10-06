@@ -2,7 +2,7 @@
 
 [Back to showcase](../README.md)
 
-**Evidence scope:** this case study summarizes capabilities described by the supplied production animation manual. It does not assert a tooling acceptance date, test count, or fresh source verification.
+**Evidence scope:** the wider workflow below is described by the supplied production animation manual. A bounded source inspection on October 5, 2026 separately supports the ownership and editorial-preservation exhibit. Neither basis establishes a tooling acceptance date, executed test result, or fresh build.
 
 ## Problem
 
@@ -39,6 +39,12 @@ That guarantee is conditional. Introducing new variants, removing frames, or cha
 Folder Mode groups related key and in-between strips. Its generated-frame inventory answers which frames the tool owns. An editable playback sequence answers which frames should appear, in what order, with what repetitions or holds.
 
 Regeneration preserves editorial playback when the inventory is unchanged. Removal is treated as a migration rather than silently rewriting the sequence. Playback speed belongs to runtime presentation configuration, so adding displayed frames requires a timing decision if the same duration is desired.
+
+## Inspect the ownership and editorial boundary
+
+The [animation-regeneration exhibit](../samples/ANIMATION_REGENERATION.md) contains selected production fragments for ownership validation, generated-inventory/playback synchronization, and a no-op preservation test. The test edits playback from generated `[A, B]` to `[B, A, A]` and asserts that regenerating the same inventory preserves it.
+
+The displayed source was inspected, not compiled or tested for this showcase. It excludes extraction, normalization, complete generation, profile schemas, and artwork. This is evidence of a specific implementation decision rather than new verification of the complete pipeline.
 
 ## Demonstration plan
 

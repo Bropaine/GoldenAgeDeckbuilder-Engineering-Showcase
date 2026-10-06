@@ -11,12 +11,13 @@ This collection contains **reviewed production excerpts**, selected for their sm
 | [Assembly boundaries](ASSEMBLY_BOUNDARIES.md) | Dependencies are declared and engine references are restricted | Two small Unity assembly definitions |
 | [Durable save commit](DURABLE_SAVE_COMMIT.md) | Persisted bytes are validated before commit; failures retain dirty state | Storage-port and save-service fragments, plus failure assertions |
 | [Staged session restore](STAGED_SESSION_RESTORE.md) | Rejection preserves live authority; installation follows candidate construction | Restore and installation fragments, plus unchanged-state assertions |
+| [Animation regeneration](ANIMATION_REGENERATION.md) | Generation preserves asset identity and the artist's order/repeated frames | Ownership check, inventory/playback synchronization, and a preservation test fragment |
 
 Each exhibit explains its scope, source filename and reviewed line range, omissions, and evidence limits. The excerpts retain their production names and behavior. They are not newly authored representative examples.
 
 ## Scope and reuse
 
-These Markdown exhibits are reading artifacts, not a buildable project. Their containing types, helper methods, referenced assemblies, and wider runtime are intentionally omitted. The complete combat path, game content, save formats, asset pipeline, and private repository history remain private.
+These Markdown exhibits are reading artifacts, not a buildable project. Their containing types, helper methods, referenced assemblies, and wider runtime are intentionally omitted. The complete combat path, game content, save formats, complete asset pipeline, and private repository history remain private.
 
 Selected test methods and assertion fragments show how a property is expressed in the private suite. Reading a test does not establish that it passes, and historical suite totals do not certify this later source inspection. See [Testing and verification](../docs/TESTING_AND_VERIFICATION.md).
 

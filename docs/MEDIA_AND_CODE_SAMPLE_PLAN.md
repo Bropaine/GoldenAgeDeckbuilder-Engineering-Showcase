@@ -2,7 +2,7 @@
 
 [Back to showcase](../README.md)
 
-The written showcase and a first collection of selected production excerpts are published. The [sample index](../samples/README.md) includes context-bound targets, presentation without mutation, two assembly definitions, durable save commit, and staged session restore. These are annotated reading artifacts; they are not standalone executable samples, and the displayed tests were not run for the showcase.
+The written showcase and a first collection of selected production excerpts are published. The [sample index](../samples/README.md) includes context-bound targets, presentation without mutation, two assembly definitions, durable save commit, staged session restore, and animation regeneration. These are annotated reading artifacts; they are not standalone executable samples, and the displayed tests were not run for the showcase.
 
 The media and representative examples proposed below remain planned additions. No gameplay captures are included yet.
 
@@ -40,6 +40,6 @@ Meaningful sample checks should cover a rejected stale context, a failed candida
 
 ## Release sequence
 
-The documentation foundation and first bounded production excerpts are published. Next add a cleared hero screenshot and short gameplay overview, then one verified standalone representative sample if it adds value beyond the excerpts. Add focused captures or a small tooling exhibit when they clarify a case study.
+The documentation foundation and first bounded production excerpts are published. Next add a cleared hero screenshot and short gameplay overview, then one verified standalone representative sample if it adds value beyond the excerpts. Add focused captures when they clarify a case study; the selected tooling exhibit now supplies the ownership/editorial source example.
 
 After each addition, review the entire public set for private information, rights, unsupported claims, and cumulative reconstruction risk. Further source disclosure and documentation/sample license choices remain Owner decisions. [Publication checklist](PUBLIC_RELEASE_BOUNDARIES.md).
