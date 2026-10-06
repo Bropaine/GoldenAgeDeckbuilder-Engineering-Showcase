@@ -6,7 +6,7 @@ A turn-based roguelike deckbuilder centered on Black Terror, with a restored Gol
 
 The central challenge is continuity: a Run must remember the exact cards the player owns and the decisions they have made, while every new Battle starts with fresh mutable combat objects. Saving and resuming must preserve that distinction—even in the middle of a supported combat decision.
 
-**The full production source is maintained privately.** This repository contains public-facing architecture summaries, engineering case studies, conceptual diagrams, and a small collection of annotated production excerpts. Gameplay captures, standalone executable samples, and a playable build are not included.
+**The full production source is maintained privately.** This repository contains public-facing architecture summaries, engineering case studies, conceptual diagrams, and a small collection of annotated production excerpts. Owner-recorded gameplay and editor demonstrations are included. Standalone executable samples and a playable build are not distributed.
 
 ## At a glance
 
@@ -21,6 +21,15 @@ The central challenge is continuity: a Run must remember the exact cards the pla
 | Tooling | A production manual describes animation-strip extraction, normalization, saved profiles, stable output ownership, and editable playback sequences |
 
 These are documentation-backed checkpoint claims, not a new execution of the private project. Multi-enemy support was established primarily through proof fixtures; the documented four-encounter production route remained single-enemy content. The animation manual has a separate evidence basis from the September acceptance checkpoint. [Evidence and limits](docs/TESTING_AND_VERIFICATION.md).
+
+## Watch the project
+
+[![Single-enemy gameplay in the current Unity Editor capture](media/single-enemy-gameplay-poster.jpg)](media/GAMEPLAY_DEMO.md)
+
+- [Current gameplay — 1:27](media/GAMEPLAY_DEMO.md): single-enemy encounters, card play, victory, reward choice, and progression.
+- [Story Beats V2 editor — 5:00](media/STORY_BEATS_EDITOR_DEMO.md): cinematic authoring, preview navigation, narration edits, and cue controls. Export and external PIL treatment are outside the footage.
+
+Both recordings were supplied by the Owner on October 5, 2026. They show current development behavior; they do not establish new test totals or replace the dated acceptance evidence.
 
 ## Start with these four case studies
 
@@ -84,7 +93,11 @@ GoldenAgeDeckbuilder-Engineering-Showcase/
 │   ├── RESTORE_FLOW.md
 │   └── ENGINEERING_WORKFLOW.md
 ├── media/
-│   └── README.md
+│   ├── README.md
+│   ├── GAMEPLAY_DEMO.md
+│   ├── STORY_BEATS_EDITOR_DEMO.md
+│   ├── single-enemy-gameplay-poster.jpg
+│   └── story-beats-v2-editor-poster.jpg
 └── samples/
     ├── README.md
     ├── CONTEXT_BOUND_TARGETS.md

@@ -1,6 +1,6 @@
 # Combat: exact targets and ordered commands
 
-[Back to showcase](../README.md) · [Command-flow diagram](../diagrams/COMBAT_COMMAND_FLOW.md)
+[Back to showcase](../README.md) · [Current gameplay recording](../media/GAMEPLAY_DEMO.md) · [Command-flow diagram](../diagrams/COMBAT_COMMAND_FLOW.md)
 
 ## Problem
 
@@ -39,3 +39,7 @@ This example illustrates the documented stale-target protection. It is not a rep
 Fixed membership avoids introducing dynamic spawning, waves, or reorder semantics before they are needed. Focused enemy actions preserve existing rule ownership rather than building a generalized combatant hierarchy. A future dynamic lineup would require new lifetime and ordering contracts.
 
 The accepted record describes automated and manual proof fixtures for two-/three-enemy targeting, ordered execution, group victory, shared player Block, and stale bindings. Production content in that record remained a four-encounter single-enemy route. This establishes a verified foundation at its checkpoint, not broad multi-enemy content completion. [Evidence details](TESTING_AND_VERIFICATION.md).
+
+## Current visual demonstration
+
+The [October 5 gameplay recording](../media/GAMEPLAY_DEMO.md) shows the current single-enemy route presentation, card play, victory, reward choice, and entry into the next encounter in Unity Editor Play Mode. It does not show the two-/three-enemy proof fixtures or create a new accepted test/build checkpoint.

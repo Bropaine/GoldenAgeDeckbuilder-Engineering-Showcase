@@ -102,6 +102,10 @@ The interesting decision is the boundary between repeatable generation and human
 
 That exposes a production concern a simple importer can miss: correctness includes preserving work already done by other parts of the workflow.
 
+## Related editor demonstration
+
+The [Story Beats V2 recording](../media/STORY_BEATS_EDITOR_DEMO.md) shows cinematic authoring and quality-of-life features in a related Unity tool. It is useful visual context for production tooling, but does not exercise the ownership or regeneration assertions in this exhibit. Export and external PIL treatment are outside that recording.
+
 ## Tradeoffs and scope
 
 Saved ownership records require maintenance. Missing, moved, or GUID-changed outputs stop ordinary regeneration; intentional structural changes need an explicit migration.

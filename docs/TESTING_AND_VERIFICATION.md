@@ -10,6 +10,12 @@ On October 5, 2026, selected production files and related test methods were insp
 
 The displayed test methods were not executed for the showcase. Their assertions illustrate intended properties; their presence alone is not a passing result. The reviewed source is later than the historical accepted checkpoints below, so those totals must not be presented as verification of the exhibited source state.
 
+## Owner-provided visual demonstrations
+
+Two recordings supplied October 5, 2026 provide current visual context: [single-enemy gameplay](../media/GAMEPLAY_DEMO.md) in Unity Editor Play Mode, and [Story Beats V2 cinematic authoring](../media/STORY_BEATS_EDITOR_DEMO.md). The visible gameplay build label is `0.18.0-save-load`; exact source commits and a packaged-build identity were not supplied.
+
+The gameplay clip does not demonstrate multi-enemy content or a complete quit/relaunch persistence check. The editor clip does not demonstrate export or external PIL treatment, and does not test the separate regeneration source exhibit. These are recorded observations, not new automated PASS results, tooling acceptance, or an extension of the historical regression count.
+
 ## Recorded checkpoints
 
 | Checkpoint | Recorded evidence | Scope |

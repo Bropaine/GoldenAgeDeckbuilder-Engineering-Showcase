@@ -4,16 +4,17 @@
 
 The written showcase and a first collection of selected production excerpts are published. The [sample index](../samples/README.md) includes context-bound targets, presentation without mutation, two assembly definitions, durable save commit, staged session restore, and animation regeneration. These are annotated reading artifacts; they are not standalone executable samples, and the displayed tests were not run for the showcase.
 
-The media and representative examples proposed below remain planned additions. No gameplay captures are included yet.
+The [media inventory](../media/README.md) now contains a 1:27 single-enemy gameplay capture and a 5:00 Story Beats V2 editor walkthrough, both recorded by the Owner on October 5, 2026. These include captured poster images and explicit scope notes. The full export/PIL workflow and the additional focused captures below remain future additions.
 
-## Media priorities
+## Media status and remaining priorities
 
 | Priority | Proposed artifact | Story to show | Acceptance before inclusion |
 |---|---|---|---|
-| 1 | 60–90 second gameplay overview | Entry, combat, targeting, a reward or upgrade, quit/Continue | Capture actual behavior from an identified build; label any proof fixture |
-| 1 | Clear battle screenshot | Readable card costs, enemy intent, target context, comic presentation | Check legibility at README size; clear all visible asset rights |
+| Published | [1:27 gameplay recording](../media/GAMEPLAY_DEMO.md) | Single-enemy combat, victory, reward, and progression | Visible build label retained; Editor capture; full persistence sequence unclaimed |
+| Published | [Battle poster](../media/single-enemy-gameplay-poster.jpg) | Card costs, enemy intent, resources, comic presentation | Frame from the Owner-authorized recording; resized for README |
 | 2 | Short exact-copy upgrade capture | Two duplicate copies; upgrade one; new Battle preserves the distinction | Show actual supported path; avoid inventing a removal UI |
 | 2 | Short resume capture | Save a supported decision, quit, relaunch, Continue | Preserve continuity; do not edit around a failed restore |
+| Published | [Story Beats V2 walkthrough](../media/STORY_BEATS_EDITOR_DEMO.md) | Cinematic authoring and quality-of-life controls | Scope notes exclude export, PIL treatment, and full tool acceptance |
 | 2 | Animation-tool walkthrough | Source problem, preflight, saved profile, generated result, playback | Use cleared generic strips; conceal private paths and unrelated assets |
 | 3 | Brief evidence card | Dated automated checkpoint and packaged/manual scope | Derived summary with limits; no raw identifying report |
 
@@ -40,6 +41,6 @@ Meaningful sample checks should cover a rejected stale context, a failed candida
 
 ## Release sequence
 
-The documentation foundation and first bounded production excerpts are published. Next add a cleared hero screenshot and short gameplay overview, then one verified standalone representative sample if it adds value beyond the excerpts. Add focused captures when they clarify a case study; the selected tooling exhibit now supplies the ownership/editorial source example.
+The documentation, bounded production excerpts, current gameplay recording, and cinematic-editor recording are published. Further additions should be selective: a focused save/resume proof or export/PIL walkthrough can fill a specific evidence gap. A verified standalone representative sample is optional if it adds value beyond the excerpts. Add focused captures when they clarify a case study; the selected tooling exhibit now supplies the ownership/editorial source example.
 
 After each addition, review the entire public set for private information, rights, unsupported claims, and cumulative reconstruction risk. Further source disclosure and documentation/sample license choices remain Owner decisions. [Publication checklist](PUBLIC_RELEASE_BOUNDARIES.md).

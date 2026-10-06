@@ -2,7 +2,15 @@
 
 [Back to showcase](../README.md)
 
-**Evidence scope:** the wider workflow below is described by the supplied production animation manual. A bounded source inspection on October 5, 2026 separately supports the ownership and editorial-preservation exhibit. Neither basis establishes a tooling acceptance date, executed test result, or fresh build.
+**Evidence scope:** the wider workflow below is described by the supplied production animation manual. A bounded source inspection on October 5, 2026 separately supports the ownership and editorial-preservation exhibit. An Owner-provided October 5 recording separately demonstrates Story Beats V2 authoring. These evidence types establish different scopes; none is a fresh tooling acceptance report or new build/test result.
+
+## Recorded cinematic editor demonstration
+
+The [Story Beats V2 walkthrough](../media/STORY_BEATS_EDITOR_DEMO.md) shows cinematic draft authoring and quality-of-life features in Unity: beat selection, preview/scrubbing, navigation within a still, narration edits, and cue controls.
+
+https://github.com/user-attachments/assets/fb88e504-3230-4687-aef0-3da6faf194cc
+
+**Scope:** approximately five minutes, recorded October 5, 2026. The export pipeline and external PIL treatment are not shown. This is a related cinematic-authoring tool demonstration, not footage proving the regeneration/GUID-preservation behavior described below. [Full capture notes](../media/STORY_BEATS_EDITOR_DEMO.md).
 
 ## Problem
 
@@ -46,7 +54,7 @@ The [animation-regeneration exhibit](../samples/ANIMATION_REGENERATION.md) conta
 
 The displayed source was inspected, not compiled or tested for this showcase. It excludes extraction, normalization, complete generation, profile schemas, and artwork. This is evidence of a specific implementation decision rather than new verification of the complete pipeline.
 
-## Demonstration plan
+## Additional pipeline demonstration plan
 
 A strong tools demonstration would show a rights-cleared generic character with a visibly oversized Hit strip, then analysis, saved normalization, generation, and scale-consistent playback. A second segment would reorder a grouped sequence and regenerate to show editorial preservation.
 
